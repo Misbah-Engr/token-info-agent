@@ -1,0 +1,11 @@
+Example 1:
+Input: "What's the price of SOL?"
+Expected Output: Current Solana price in USD with 24h change percentage
+
+Example 2:
+Input: "How much is 1 ETH in USD?"
+Expected Output: Current Ethereum price in USD with 24h change percentage
+
+Example 3:
+Input: "Compare BTC and ETH prices"
+Expected Output: Side-by-side comparison of Bitcoin and Ethereum prices with 24h changes
