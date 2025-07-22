@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Info Shade Agent</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Token Info Shade Agent</h1>
+            <p>Your Autonomous AI agent for real-time token pricing</p>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div id="chat-messages"></div>
+                <div class="input-container">
+                    <input type="text" id="user-input" placeholder="Ask about token prices (e.g., 'What's the price of NEAR?')">
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+            
+            <div class="features">
+                <h3>Try these examples:</h3>
+                <div class="examples">
+                    <button class="example-btn">What's the price of Bitcoin?</button>
+                    <button class="example-btn">How much is 1 ETH in USD?</button>
+                    <button class="example-btn">Compare BTC and ETH prices</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/agent.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
